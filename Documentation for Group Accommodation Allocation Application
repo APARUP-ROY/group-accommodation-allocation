@@ -1,0 +1,35 @@
+The Group Accommodation Allocation application automates the allocation of groups to available accommodations based on specified criteria. This document provides an overview of its usage and steps to run the application using GitHub's web interface.
+
+Logic
+Input Requirements:
+
+Requires two CSV files:
+Group Information CSV: Contains details like group ID and number of members.
+Hostel Information CSV: Provides hostel details including ID and capacity.
+Allocation Process:
+
+Upon upload, the application reads and processes the CSV files.
+It sorts groups and hostels based on predefined criteria (e.g., group size, hostel capacity).
+Allocates each group to an appropriate hostel considering availability and capacity.
+Generates allocation results displayed in a table format.
+Output:
+
+Displays allocation results on a web page.
+Provides an option to download allocation results in CSV format.
+Instructions to Run the Application
+Clone the Repository:
+
+Open your GitHub repository where the application is hosted.
+Upload CSV Files:
+
+Navigate to the repository's main page on GitHub.
+Click on "Add file" and then "Upload files" to upload the Group Information CSV and Hostel Information CSV files.
+View Allocation Results:
+
+After uploading, navigate to the repository's main page.
+Look for a link or description indicating where the allocation results are displayed or can be downloaded.
+Download Results:
+
+If applicable, use the provided link or button to download the allocation results in CSV format.
+Conclusion
+This application simplifies the process of group accommodation allocation using GitHub's web interface. By following these steps, users can upload necessary files and view allocation results seamlessly.
