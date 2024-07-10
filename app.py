@@ -5,7 +5,7 @@ from io import StringIO, BytesIO
 import csv
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'
+app.secret_key = 'your_secret_key' # UPLOAD YOUR SECRET KEY FOR TECHFEST, IITB
 
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'csv'}
